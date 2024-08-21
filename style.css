@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.myList {
+  padding: 12px;
+  margin: 10px;
+  width: 350px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.myList h1 {
+  background-color: coral;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.myList ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.myNav ul {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  background-color: black;
+  font-size: 22px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.myNav ul li a:hover {
+  color: coral;
+}
+
+/* Card Styling */
+.card {
+  background-color: #41b3a2;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 300px;
+  color: #fff;
+  line-height: 1.3;
+  border-radius: 6px;
+}
+.card p {
+  width: 200px;
+}
+
+.fa-users-line {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+/* Css Grid */
+.grid-item {
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+.grid-item h1 {
+    font-size: 25;
+    padding: 10px;
+}
+
+.grid-item p {
+    padding: 10px;
+}
+
+
+.btn {
+    padding: 12px;
+    border: none;
+    text-align: center;
+    background-color: purple;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.myGrid {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
